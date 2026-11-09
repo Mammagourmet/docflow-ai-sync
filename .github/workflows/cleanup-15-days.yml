@@ -1,0 +1,24 @@
+name: Limpeza Automatica de 15 Dias (DocFlow AI)
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  purge-expired-snapshots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apagar arquivos de sincronizacao com mais de 15 dias
+        run: |
+          if [ -d "sync_buffer" ]; then
+            find sync_buffer -type f -mtime +15 -delete
+            git config user.name "DocFlow AI Auto-Purge"
+            git config user.email "noreply@docflow.local"
+            git add -A sync_buffer
+            if ! git diff --staged --quiet; then
+              git commit -m "Auto-limpeza: removidos pacotes com mais de 15 dias"
+              git push
+            fi
+          fi
