@@ -4,28 +4,36 @@ Plataforma Inteligente de Identificação, Separação e Distribuição Automát
 
 ---
 
-## 📥 Como Baixar e Instalar em Qualquer Computador (2 Passos)
+## 📥 Opções de Download para Qualquer Computador
 
-### 1️⃣ Baixar o Pacote Completo Autônomo
-Clique no link direto abaixo para fazer o download do instalador oficial:
+### Opção 1: Página da Release Oficial (Recomendado)
+Acesse a página oficial da versão no GitHub e clique em **`DocFlow-AI-Instalador.zip`** na seção *Assets*:
 
-👉 **[BAIXAR DOCFLOW AI INSTALADOR (WINDOWS)](https://github.com/Mammagourmet/docflow-ai-sync/releases/download/v1.0.0/DocFlow-AI-Instalador.zip)**
+👉 **[Página Oficial da Release v1.1.0 (Clique Aqui)](https://github.com/Mammagourmet/docflow-ai-sync/releases/tag/v1.1.0)**
+
+---
+
+### Opção 2: Link de Download Direto
+Se o seu navegador permitir download direto sem abrir a página:
+
+👉 **[Download Direto: DocFlow-AI-Instalador.zip (v1.1.0)](https://github.com/Mammagourmet/docflow-ai-sync/releases/download/v1.1.0/DocFlow-AI-Instalador.zip)**
 
 *(Tamanho: ~131 MB — Já inclui o motor Node.js v24 portátil e todas as bibliotecas pré-instaladas)*
 
 ---
 
-### 2️⃣ Instalar em 2 Cliques
+## 🛠️ Como Instalar em 2 Cliques (No Novo Computador)
+
 1. **Extraia o arquivo ZIP:**
-   * Clique com o botão direito no arquivo baixado (`DocFlow-AI-Instalador.zip`) e selecione **"Extrair Tudo..."** -> **Extrair**.
+   * Clique com o botão direito no arquivo baixado (`DocFlow-AI-Instalador.zip`) e selecione **"Extrair Tudo..."** ➔ **Extrair**.
 2. **Execute o instalador:**
    * Abra a pasta extraída e dê 2 cliques no arquivo:
    * 👉 **`Instalar-DocFlow.bat`**
 
 ---
 
-## ✨ Vantagens desta Versão Autônoma
-- **Zero Dependências:** Não precisa instalar Node.js, Git ou Python no computador. O motor de execução já vai embutido.
+## ✨ Recursos Desta Versão Autônoma
+- **Zero Dependências:** Não precisa instalar Node.js, Git ou Python. O motor de execução já vai embutido.
 - **Não precisa de Internet para a Instalação:** Todas as bibliotecas de processamento (`node_modules`) já estão prontas dentro do pacote.
 - **Sem privilégios de Administrador:** Não depende de comandos de sistema (`winget`) ou alterações no registro.
 - **Atalho Automático:** Cria o atalho na Área de Trabalho com o ícone oficial.
