@@ -1,40 +1,34 @@
-# 🚀 DocFlow AI — Instalador Oficial Windows (Plug & Play)
+# 🚀 DocFlow AI — Instalador Oficial Windows (.EXE)
 
 Plataforma Inteligente de Identificação, Separação e Distribuição Automática de Documentos (PDF, OCR, E-mail e WhatsApp).
 
 ---
 
-## 📥 Opções de Download para Qualquer Computador
+## 📥 Download do Instalador Oficial (Não precisa descompactar)
 
-### Opção 1: Página da Release Oficial (Recomendado)
-Acesse a página oficial da versão no GitHub e clique em **`DocFlow-AI-Instalador.zip`** na seção *Assets*:
+Para instalar em qualquer computador Windows com 1 clique (sem precisar extrair pastas ZIP):
 
-👉 **[Página Oficial da Release v1.1.0 (Clique Aqui)](https://github.com/Mammagourmet/docflow-ai-sync/releases/tag/v1.1.0)**
+👉 **[BAIXAR DOCFLOW AI INSTALADOR (.EXE)](https://github.com/Mammagourmet/docflow-ai-sync/releases/download/v1.1.0/DocFlow-AI-Instalador.exe)**
 
----
+*(Versão v1.1.0 — Arquivo Executável Oficial — 111 MB)*
 
-### Opção 2: Link de Download Direto
-Se o seu navegador permitir download direto sem abrir a página:
-
-👉 **[Download Direto: DocFlow-AI-Instalador.zip (v1.1.0)](https://github.com/Mammagourmet/docflow-ai-sync/releases/download/v1.1.0/DocFlow-AI-Instalador.zip)**
-
-*(Tamanho: ~131 MB — Já inclui o motor Node.js v24 portátil e todas as bibliotecas pré-instaladas)*
+Ou acesse a página da release: **[Página da Release v1.1.0 no GitHub](https://github.com/Mammagourmet/docflow-ai-sync/releases/tag/v1.1.0)**
 
 ---
 
-## 🛠️ Como Instalar em 2 Cliques (No Novo Computador)
-
-1. **Extraia o arquivo ZIP:**
-   * Clique com o botão direito no arquivo baixado (`DocFlow-AI-Instalador.zip`) e selecione **"Extrair Tudo..."** ➔ **Extrair**.
-2. **Execute o instalador:**
-   * Abra a pasta extraída e dê 2 cliques no arquivo:
-   * 👉 **`Instalar-DocFlow.bat`**
+## 🛠️ Como Instalar no Novo Computador:
+1. Dê **2 cliques** no arquivo baixado: **`DocFlow-AI-Instalador.exe`**
+2. Clique em **Avançar** ➔ **Instalar** ➔ **Concluir**.
+3. O instalador faz tudo sozinho:
+   - Extrai os arquivos para `C:\DocFlowAI` sem erros de caminho longo ou permissão.
+   - Cria o atalho oficial na sua Área de Trabalho e no Menu Iniciar.
+   - Já inclui o motor próprio Node.js e todas as dependências pré-instaladas.
+   - Inicia o sistema e abre automaticamente no navegador em: **http://localhost:3001**
 
 ---
 
-## ✨ Recursos Desta Versão Autônoma
-- **Zero Dependências:** Não precisa instalar Node.js, Git ou Python. O motor de execução já vai embutido.
-- **Não precisa de Internet para a Instalação:** Todas as bibliotecas de processamento (`node_modules`) já estão prontas dentro do pacote.
-- **Sem privilégios de Administrador:** Não depende de comandos de sistema (`winget`) ou alterações no registro.
-- **Atalho Automático:** Cria o atalho na Área de Trabalho com o ícone oficial.
-- **Acesso Imediato:** O sistema inicia e abre automaticamente no seu navegador em: **http://localhost:3001**
+## ✨ Diferenciais deste Instalador Oficial
+- **Não precisa descompactar:** É um instalador executável direto (.exe), evitando os limites de caracteres e erros de extração do Windows Explorer.
+- **Zero Dependências:** Funciona em qualquer Windows 10/11 sem precisar instalar Node.js, Python ou Git.
+- **100% Autônomo:** Não precisa de internet durante a instalação (todas as bibliotecas já vêm embutidas).
+- **Desinstalador Integrado:** Pode ser desinstalado a qualquer momento pelo Painel de Controle do Windows se desejar.
